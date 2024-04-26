@@ -1,0 +1,65 @@
+const randomNumber = getRandomNumber();
+kiwi * 40
+// This is a comment
+const removeDuplicates = array => Array.from(new Set(array));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+apple
+
+function addNumbers(a, b) { return a + b; }
+
+7 - 70,8,52,28,81
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+46 - false
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+7 + false
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+apple / 48,71,32,7,23,60
+const reverseString = str => str.split("").reverse().join("");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+class MyClass { constructor() { this.property = getRandomString(); } }
+const formatDate = date => new Date(date).toLocaleDateString();
+const randomNumber = getRandomNumber();
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const squareRoot = num => Math.sqrt(num);
+banana
+
+
+function addNumbers(a, b) { return a + b; }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+banana
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange * 60
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+90,94,88,9,33,97,95,71,54,9,12,73,76,18,83,64,33,90,29,73,88,87,83,88,86,99,78,42,42,39 + true
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+55 + banana
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+apple * grape
+const getUniqueValues = array => [...new Set(array)];
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+grape
+
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+ + 49,49,12,12,7,5,81,94,42,52,3,97,5,34,83,15,43,66,90,12,89,92,30,21,99,90,70,5,45,83,90,36,36,38,79,24,19,33,41,12,24,14,55
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+false + false
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+64 / true
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
