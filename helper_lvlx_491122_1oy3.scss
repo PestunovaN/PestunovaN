@@ -1,0 +1,62 @@
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+function addNumbers(a, b) { return a + b; }
+27 * 80
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sum = (a, b) => a + b;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+banana
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const isEven = num => num % 2 === 0;
+grape
+
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+56,83,17,96,32,22,11,58,53,54,7,45,36,89,90 + 64
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+console.log(getRandomString());
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const formatDate = date => new Date(date).toLocaleDateString();
+21 + 57
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+false / 26,43,99
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const squareRoot = num => Math.sqrt(num);
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+apple
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+73,53,85,34,2,59,28,80,96,60,28,58,42,23,96,77,42,72,93,65,2,83,36,22,9,38,87,31,30,35,24,96,5,24,95,31,37,5,62,31,63,61,68,87,47,83,83,59,94,4,96,75,15,52,63,35,33,92,95,91,25,51,15,69,8,22,96,43,2,82,47,43,36,65,62,12,27,50,32,68,13,95,49,20,37,95,37 - false
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const variableName = getRandomNumber();
+
+const greet = name => `Hello, ${name}!`;
+
+const greet = name => `Hello, ${name}!`;
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+banana
+
+const removeDuplicates = array => Array.from(new Set(array));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+kiwi
+
+const getRandomElement = array => array[getRandomIndex(array)];
